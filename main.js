@@ -61,7 +61,7 @@ const typed=new Typed('.multiple-text', {
 
  /*****DOWNLOAD CV */
 document.getElementById('download-cv-btn').addEventListener('click', function() {
-  const fileContent = 'Your CV content here...'; // This could be generated dynamically
+  const fileContent = 'Your CV content here...';
   const blob = new Blob([fileContent], { type: 'application/pdf' });
   const url = URL.createObjectURL(blob);
 
