@@ -67,8 +67,6 @@ document.getElementById('download-cv-btn').addEventListener('click', function() 
 
   const link = document.createElement('a');
   link.href = url;
-  link.download = 'Bharath_KV_CV.pdf';
-  document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
   URL.revokeObjectURL(url);
