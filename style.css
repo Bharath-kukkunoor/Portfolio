@@ -389,6 +389,13 @@ span{
     color: var(--snd-bg-color);
 
 }
+.icon-link{
+    text-decoration: none;
+    background: none;
+    border: none;
+    color: white;
+}
+
 
 /*BREAKPOINT*/
 
